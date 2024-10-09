@@ -1,0 +1,28 @@
+#caixa-mae{
+  width: 1000px;
+  height: 600px;
+  background-color: blue;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+#caixa-filho-1{
+  width: 20%;
+  height: 20%;
+  background-color: red;
+}
+
+#caixa-filho-2{
+  width: 20%;
+  height: 20%;
+  background-color: green;
+  margin-top: 50px;
+}
+
+#caixa-filho-3{
+  width: 20%;
+  height: 20%;
+  background-color: yellow;
+}
+

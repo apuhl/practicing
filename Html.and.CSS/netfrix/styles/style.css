@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+body{
+  margin: 0px;
+}
+
+#logo{
+  width: 150px;
+  margin-left: 100px;
+}
+
+#container{
+  background-image: linear-gradient(103.24deg, rgba(0, 8, 29, 0.9) 23.83%, rgba(0, 8, 29, 0.3) 96.1%), url(https://assets.nflxext.com/ffe/siteui/vlv3/530fc327-2ddb-4038-a3f0-2da2d9ccede1/81c68250-e0f1-4cd8-bf2d-4fd8222163de/BR-pt-20230619-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+  background-size: cover;
+  height: 700px;
+  padding: 20px;
+}
+
+#header{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#nav{
+  margin-right: 150px;
+}
+
+select{
+  padding: 4px 15px;
+  font-size: 16px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.712);
+  border-radius: 5px;
+}
+
+#btn-enter{
+  padding: 7px 15px;
+  font-size: 14px;
+  background-color: red;
+  color: white;
+  border-style: none;
+  border-radius: 5px;
+}
+
+#div-main-title{
+  color: white;
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0px;
+}
+
+.div-text{
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#main-title{
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 62px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.h2-text{
+  color: white;
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 40px;
+  margin-bottom: 0px;
+}
+
+.h3-text{
+  color: white;
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 30px;
+}
+
+.div-form{
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#input-start{
+  height: 50px;
+  width: 350px;
+  color: white;
+  background-color: rgba(29, 29, 29, 0.488);
+  border: 1px solid grey;
+  border-radius: 5px;
+  font-size: 16px;
+  padding: 0px 10px;
+}
+
+#btn-start{
+  margin-left: 10px;
+  font-size: 22px;
+  padding: 10px 20px;
+  font-weight: 700;
+  color: white;
+  background-color: #e50914;
+  border: none;
+  border-radius: 5px;
+}
